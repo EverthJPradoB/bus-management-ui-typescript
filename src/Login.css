@@ -1,0 +1,92 @@
+/* Estilo general para el contenedor */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f7fafc; /* Fondo gris claro */
+  }
+  
+  /* Caja de inicio de sesión */
+  .login-box {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 24rem; /* Ancho de la caja */
+  }
+  
+  /* Título de la caja */
+  .login-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    color: #4a5568; /* Color gris oscuro */
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Formulario */
+  .login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  /* Estilo de los grupos de entrada */
+  .input-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Estilo de las etiquetas */
+  .label {
+    font-size: 0.875rem;
+    font-weight: medium;
+    color: #4a5568;
+    margin-bottom: 0.25rem;
+  }
+  
+  /* Estilo de las entradas de texto */
+  .input {
+    padding: 0.75rem;
+    border: 1px solid #e2e8f0;
+    border-radius: 0.5rem;
+
+  }
+  
+  /* Mensaje de error */
+  .error-text {
+    color: #f56565;
+    font-size: 0.875rem;
+  }
+  
+  /* Botón de envío */
+  .submit-button {
+    background-color: #3182ce;
+    color: white;
+    padding: 0.75rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s;
+  }
+  
+  .submit-button:hover {
+    background-color: #2b6cb0;
+  }
+  
+  .submit-button:disabled {
+    background-color: #d2d6dc;
+    cursor: not-allowed;
+  }
+  
+  .image-container {
+    display: flex;
+    justify-content: center;  /* Centra la imagen horizontalmente */
+    align-items: center;      /* Centra la imagen verticalmente si es necesario */
+    margin-bottom: 20px;      /* Espaciado entre la imagen y el formulario */
+  }
+  
+  .login-logo {
+    width: 200px;  /* O cualquier tamaño que prefieras */
+  }
